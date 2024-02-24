@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Material+Icons);
+
+// index
+// index nav
+.nav {
+    position: fixed;
+    min-width: 200px;
+    min-height: 100vh;
+}
+.nav-link {
+    padding: 12px 32px;
+    position: relative;
+}
+.nav-link.active {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 32px;
+    border-left: 4px solid #198754;
+}
+// main
+.main {
+    margin-left: 200px;
+}
+// utils
+.p-32 {
+    padding: 32px;
+}
