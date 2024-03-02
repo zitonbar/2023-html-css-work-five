@@ -21,11 +21,13 @@
 .object-fit-contain {
     object-fit:contain
 }
-// width
-.w-40 {
+// img circle
+.img-circle {
     width: 40px;
+    max-height: 40px;
 }
-// height
-.h-40 {
-    height: 40px;
+
+// card article
+.card-article {
+    max-width: 488px;
 }
