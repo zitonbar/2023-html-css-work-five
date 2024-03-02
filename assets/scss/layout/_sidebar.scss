@@ -7,3 +7,14 @@
     padding: 12px 32px;
     position: relative;
 }
+
+.nav-link:active::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    height: 32px;
+    border-left: 4px solid #198754;
+}
