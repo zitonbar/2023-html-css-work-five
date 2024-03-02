@@ -1,10 +1,10 @@
 @import "../../node_modules/bootstrap/scss/functions";
-@import "../scss/utils/vendors";
+@import "./utils/vendors";
 @import "../scss/utils/base";
 @import './utils/variables';
 @import './utils/custom.scss';
 
-@import "./layout/navbar";
+@import "./layout/sidebar";
 
 @import './pages/index.scss';
 
